@@ -1,0 +1,32 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card > div {
+    padding: 10px 0;
+}
+
+.card > div > input {
+    width: 180px;
+}
+
+.result {
+    display: flex;
+    align-self: center;
+}
+
+.result > div {
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-color: rgb(68, 68, 68);
+    font-size: 1.2em;
+    font-weight: bold;
+}
