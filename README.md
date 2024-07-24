@@ -2,9 +2,17 @@
 
 ## Description
 
-A simple app that calculates the probability of at least one success in several independent experiments given a known probability of a single experiment. It uses the binomial distribution.
+Simple application to calculate probability:
 
-Made with Vite and SolidJS.
+* The Probability of at least one success in 𝑛 independent trials given a known probability of a single trial. The binomial distribution is used.
+
+* The probability that the first occurrence of success requires 𝑘 independent trials, each with success probability 𝑝. The geometric distribution is used.
+
+Made with `Vite` and `SolidJS`.
+
+## Preview
+
+<https://nymless.github.io/success-probability/>
 
 ## Usage
 
