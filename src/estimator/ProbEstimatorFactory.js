@@ -1,13 +1,14 @@
+import { binom } from "../distribution/binom.js";
+import { geom } from "../distribution/geom.js";
 import { EstimatorFactory } from "./EstimatorFactory.js";
-import { BinomProbEstimator } from "./ProbEstimator.js";
-import { GeomProbEstimator } from "./ProbEstimator.js";
+import { BinomProbEstimator, GeomProbEstimator } from "./ProbEstimator.js";
 
 export class ProbEstimatorFactory extends EstimatorFactory {
     createBinomProbEstimator() {
-        return new BinomProbEstimator();
+        return new BinomProbEstimator(binom);
     }
 
     createGeomProbEstimator() {
-        return new GeomProbEstimator();
+        return new GeomProbEstimator(geom);
     }
 }
